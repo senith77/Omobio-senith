@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Sign.css">
+    </head>
+    <body>
+       
+          <div class='login'>
+            <div class='login_title'>
+              <span>Create a New Account</span>
+            </div>
+
+<form action="signup.php" name="lForm" method="POST">
+
+            <div class='login_fields'>
+              <div class='login_fields__user'>
+                <div class='icon'>
+                  <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/user_icon_copy.png'>
+                </div>
+                <input name="username" id="username" placeholder='Username' type='text'>
+
+
+                  <div class='validation'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png'>
+                  </div>
+                </input>
+                
+                <input name="nametxt" id="nametxt" placeholder='Full Name' type='text'>
+
+
+                  <div class='validation'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png'>
+                  </div>
+                </input>
+                <input  name="email" id="email" placeholder='Email' type='text'>
+
+
+                  <div class='validation'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png'>
+                  </div>
+                </input>
+              </div>
+              <div class='login_fields__password'>
+                <div class='icon'>
+                  <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/lock_icon_copy.png'>
+                </div>
+
+
+                <input name="password" id="password" placeholder='Password' type='password'>
+
+
+                <div class='validation'>
+                  <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png'>
+                </div>
+              </div>
+
+
+              <div class='login_fields__password'>
+                <div class='icon'>
+                  <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/lock_icon_copy.png'>
+                </div>
+
+
+                <input  name="Cpassword" id="Cpassword" placeholder='Comfirm Password' type='password'>
+
+
+                <div class='validation'>
+                  <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tick.png'>
+                </div>
+              </div>
+
+              <div class='login_fields__submit'>
+
+                
+                <input type='submit' value='Sign Up' name="save">
+                
+              </div>
+            </div>
+
+</form>
+
+            <div class='success'>
+              <h2>Authentication Success</h2>
+              <p>Welcome back</p>
+            </div>
+            
+          </div>
+          
+          <script src="Sign.js">
+          </script>
+    </body>
+</html>
